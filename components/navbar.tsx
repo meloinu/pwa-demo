@@ -11,6 +11,14 @@ export default function Navbar() {
                 <Image src={"/claim-icon.png"} alt="" width={46} height={46}/>
                 <p className={styles.navIconLabel}>Claim</p>
             </Link>
+            <Link href="/" className={styles.navIcon}>
+                <Image src={"/claim-icon.png"} alt="" width={46} height={46}/>
+                <p className={styles.navIconLabel}>Dashboard</p>
+            </Link>
+            <Link href="/" className={styles.navIcon}>
+                <Image src={"/claim-icon.png"} alt="" width={46} height={46}/>
+                <p className={styles.navIconLabel}>...</p>
+            </Link>
             <Link href="/nfts" className={styles.navIcon}>
                 <Image src={"/nft-icon.png"} alt="" width={40} height={40}/>
                 <p className={styles.navIconLabel}>NFTs</p>
